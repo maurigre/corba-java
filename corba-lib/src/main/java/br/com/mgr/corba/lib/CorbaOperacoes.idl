@@ -1,0 +1,10 @@
+//Executar este comando: idlj -fall CorbaOperacoes.idl
+/**
+ *
+ * @author Mauri Reis
+ */
+module OperacoesApp {
+    interface Operacoes {
+        string getStatusServidor();
+    };
+};
